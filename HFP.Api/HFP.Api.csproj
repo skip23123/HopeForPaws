@@ -5,13 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Filter\**" />
     <Compile Remove="wwwroot\**" />
-    <Content Remove="Filter\**" />
     <Content Remove="wwwroot\**" />
-    <EmbeddedResource Remove="Filter\**" />
     <EmbeddedResource Remove="wwwroot\**" />
-    <None Remove="Filter\**" />
     <None Remove="wwwroot\**" />
   </ItemGroup>
 
@@ -21,6 +17,10 @@
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Filters\" />
   </ItemGroup>
 
 </Project>
