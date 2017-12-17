@@ -27,6 +27,7 @@ namespace HFP.Api.Controllers
         [HttpPost]
         public void Post([FromBody]string value)
         {
+            
         }
 
         // PUT api/values/5
@@ -39,14 +40,7 @@ namespace HFP.Api.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-            //DynamicParameters param = new DynamicParameters();
-            //param.Add("_pageIndex", 2);
-            //param.Add("_pageSize", 5);
-            //param.Add("_pagecount", dbType: DbType.Int32, direction: ParameterDirection.Output);
-            //var result = mysql.FindToListByPage<Person>(connection, "page_getperson", param);
-            ////总条数
-            //var count = param.Get<int>("_pagecount");
-            //var kk = result;
+           
         }
     }
 }
